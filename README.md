@@ -6,16 +6,13 @@ https://chromedriver.chromium.org/downloads<br>
 <br>
 설치 상세방법<br>
 - Python을 설치해주세요.<br>
-PATH는 자동으로 설정되도록 옵션 선택해주세요.<br>
-https://www.python.org/downloads/<br>
-<br>
-- 하기 chrome webdriver 다운로드 페이지에서 크롬에 맞는 버전을 다운로드 하세요.<br>
-https://chromedriver.chromium.org/downloads<br>
-위 압축파일을 받은 뒤 c:\webdriver 폴더를 생성 후에 webdriver.exe 파일을 추가해주세요.<br>
-<br>
+PATH는 자동으로 설정되도록 옵션 선택해주세요.
+https://www.python.org/downloads/
+- 하기 chrome webdriver 다운로드 페이지에서 크롬에 맞는 버전을 다운로드 하세요.
+https://chromedriver.chromium.org/downloads
+위 압축파일을 받은 뒤 c:\webdriver 폴더를 생성 후에 webdriver.exe 파일을 추가해주세요.
 - cmd (명령프롬프트) 실행, 필요한 추가 라이브러리를 설치합니다.<br>
 pip install selenium<br>
-pip install beautifulsoup4<br>
-<br>
-- cmd에서 python orbit_interpreter.py 로 실행<br>
-혹은 python IDLE - orbit_interpreter.py 를 불러오기 해서 실행
+pip install beautifulsoup4
+- cmd에서 python orbit_interpreter.py로 실행
+<br>혹은 python IDLE - orbit_interpreter.py 를 불러오기 해서 실행
