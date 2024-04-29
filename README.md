@@ -1,4 +1,18 @@
-# 오르빗 익스플로러 인터프리터
+# Orbit Explorer Interpreter
+It is a Python script that is easy to view for Orbit Explorer (https://explorer.orbitchain.io/transactions).
+Launch the "orbit_interpreter.py" file and input TxID. Then it shows easier as an Event Log. It uses the Selenium package, so Chrome webdriver installs at c:\webdriver on advanced.
+https://chromedriver.chromium.org/downloads
+<br><br>
+Installation Details<br>
+- Install Python First
+Check the option that the universal PATH set automatically. https://www.python.org/downloads/
+- Download the fit version of the Chrome driver from the webpage https://chromedriver.chromium.org/downloads and add the webdriver.exe file to c: webdriver (if it doesn't exist, create a folder first).
+- Launch cmd (command prompt), and install additional libraries as shown below.
+pip install selenium
+pip install beautifulsoup4
+- Launch python orbit_interpreter.py at cmd window
+- Or load orbit_interpreter.py via Python IDLE and run it.
+
 오르빗 익스플로러(https://explorer.orbitchain.io/transactions)를 좀 더 보기 쉽게 변환해서 보여주는 파이썬 스크립트입니다.<br>
 python orbit_interpreter.py 로 실행 후 TxID 를 입력하시면 사용자가 보기 편안한 Event Log로 변환되서 출력시킵니다.<br>
 Selenium을 이용하므로 사전에 chrome webdriver가 c:\webdriver에 설치되어 있어야 합니다.<br>
